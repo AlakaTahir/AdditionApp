@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AdditionApp.service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AdditionAppModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AdditionApp.service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdditionApp.service.dll": {}
+        }
+      },
+      "AdditionAppModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AdditionAppModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdditionAppModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdditionApp.service/1.0.0": {
+      "type": "project",
+      "path": "../AdditionApp.service/AdditionApp.service.csproj",
+      "msbuildProject": "../AdditionApp.service/AdditionApp.service.csproj"
+    },
+    "AdditionAppModel/1.0.0": {
+      "type": "project",
+      "path": "../AdditionModel/AdditionAppModel.csproj",
+      "msbuildProject": "../AdditionModel/AdditionAppModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AdditionApp.service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Practice\\AdditionApp\\AdditionApp.API\\AdditionApp.API.csproj",
+      "projectName": "AdditionApp.API",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Practice\\AdditionApp\\AdditionApp.API\\AdditionApp.API.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Practice\\AdditionApp\\AdditionApp.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\HP\\Desktop\\Practice\\AdditionApp\\AdditionApp.service\\AdditionApp.service.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Practice\\AdditionApp\\AdditionApp.service\\AdditionApp.service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

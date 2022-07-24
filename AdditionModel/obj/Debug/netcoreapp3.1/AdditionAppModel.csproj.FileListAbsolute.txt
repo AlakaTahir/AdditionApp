@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\bin\Debug\netcoreapp3.1\AdditionAppModel.deps.json
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\bin\Debug\netcoreapp3.1\AdditionAppModel.dll
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\bin\Debug\netcoreapp3.1\AdditionAppModel.pdb
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.AssemblyInfo.cs
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.dll
+C:\Users\HP\Desktop\Practice\AdditionApp\AdditionModel\obj\Debug\netcoreapp3.1\AdditionAppModel.pdb
