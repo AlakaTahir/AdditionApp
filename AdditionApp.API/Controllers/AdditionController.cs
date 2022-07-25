@@ -17,20 +17,25 @@ namespace AdditionApp.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult FindAddition(FindAdditionmodel model)
+        public IActionResult FindAddition(NumberModel model)
         {
             double result = _findService.FindAddition(model);
             return Ok(result);
         }
 
         [HttpPost]
-        public IActionResult FindSubtraction(FindSubtractionmodel model)
+        public IActionResult FindSubtraction(NumberModel model)
         {
          double result = _findService.FindSubtraction(model);
             return Ok(result);
         }
 
-       
+        [HttpPost]
+        public IActionResult FindMultiplication(NumberModel model)
+        {
+            double result = _findService.FindMultiplication(model);
+            return Ok(result);
+        }
 
 
 

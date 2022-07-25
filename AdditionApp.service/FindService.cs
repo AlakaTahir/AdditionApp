@@ -11,14 +11,19 @@ namespace AdditionApp.service
         { 
         }
 
-        public double FindAddition(FindAdditionmodel model)
+        public double FindAddition(NumberModel model)
         { 
             return model.NumA+ model.NumB;
         }
 
-        public double FindSubtraction(FindSubtractionmodel model)
+        public double FindSubtraction(NumberModel model)
         {
             return model.NumA - model.NumB;
+        }
+
+        public double FindMultiplication(NumberModel model)
+        {
+            return model.NumA * model.NumB;
         }
 
     }
