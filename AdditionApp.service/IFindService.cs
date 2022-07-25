@@ -7,8 +7,10 @@ namespace AdditionApp.service
 {
     public interface IFindService
     {
-        double FindAddition(FindAdditionmodel model);
+        double FindAddition(NumberModel model);
 
-        double FindSubtraction(FindSubtractionmodel model);
+        double FindSubtraction(NumberModel model);
+
+        double FindMultiplication(NumberModel model);
     }
 }
